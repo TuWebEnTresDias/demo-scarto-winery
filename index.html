@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCARTO Winery | Vinoteca en San Fernando</title>
+    <meta name="description" content="SCARTO Winery — Vinoteca premium en San Fernando. Selección curada de más de 200 etiquetas, degustaciones guiadas y atención personalizada. Descubrí tu próximo vino favorito.">
+    <meta name="keywords" content="vinoteca, vinos, San Fernando, degustación, cata, bodega, Argentina, SCARTO">
+    <meta property="og:title" content="SCARTO Winery | Vinoteca en San Fernando">
+    <meta property="og:description" content="Selección curada de más de 200 etiquetas, atención personalizada y degustaciones los sábados.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#hero" class="header__logo">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljQg4ZF7eT5B43pubBuGGwrGyi2jxEsuaEAftyfjS8plBw_DcTkWoLs3fZyfvDT46AmMJIuebhv9WheEPzLdOdJYPSlTBlNxAX_3mhlktRj3oGJ2q3c5OFBveVGs6_IB8dAX8E=w214-h268-n-k-no-nu" alt="SCARTO Winery" class="header__logo-img">
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <a href="#experiencia" class="header__nav-link">Experiencia</a>
+                <a href="#degustacion" class="header__nav-link">Degustaciones</a>
+                <a href="#galeria" class="header__nav-link">Galería</a>
+                <a href="#opiniones" class="header__nav-link">Opiniones</a>
+                <a href="#contacto" class="header__nav-link">Contacto</a>
+            </nav>
+            <div class="header__actions">
+                <a href="https://wa.me/5491164870541?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20SCARTO%20Winery" class="header__cta" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a>
+                <button class="header__burger" id="burgerBtn" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== MOBILE MENU ===== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-menu__nav">
+            <a href="#experiencia" class="mobile-menu__link">Experiencia</a>
+            <a href="#degustacion" class="mobile-menu__link">Degustaciones</a>
+            <a href="#galeria" class="mobile-menu__link">Galería</a>
+            <a href="#opiniones" class="mobile-menu__link">Opiniones</a>
+            <a href="#visitanos" class="mobile-menu__link">Visitanos</a>
+            <a href="#contacto" class="mobile-menu__link">Contacto</a>
+            <a href="https://wa.me/5491164870541?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20SCARTO%20Winery" class="mobile-menu__cta" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+        </nav>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr9RUj1pJOKnw6Gl2soOpckjvBT5QibsyFVNuwzT3pqxD-UaLbx8oF7JRJGou50a5_unVV3sZGuA3JjNMVsEUIRdXdvfrwWkazceUoc-xFaDp0QiLiX7Zl-MLPDMxaRI5fwpwd=w1080-h720-n-k-no-nu" alt="SCARTO Winery" class="hero__bg-img">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <span class="hero__tag anim-fade" style="--anim-delay: 0.2s">Vinoteca</span>
+            <h1 class="hero__title anim-fade" style="--anim-delay: 0.4s">NO SIRVEMOS VINO.<br>TE AYUDAMOS A ENCONTRARLO.</h1>
+            <p class="hero__subtitle anim-fade" style="--anim-delay: 0.6s">Selección curada de más de 200 etiquetas, atención que te asesora como un amigo, y el espacio perfecto para descubrir tu próximo vino favorito.</p>
+            <div class="hero__ctas anim-fade" style="--anim-delay: 0.8s">
+                <a href="#experiencia" class="btn btn--primary">Descubrí la experiencia</a>
+                <a href="https://wa.me/5491164870541?text=Hola!%20Quiero%20hacer%20una%20reserva%20en%20SCARTO%20Winery" class="btn btn--outline" target="_blank" rel="noopener">Reservá tu visita</a>
+            </div>
+        </div>
+        <div class="hero__scroll anim-fade" style="--anim-delay: 1.2s">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===== DIFERENCIALES ===== -->
+    <section class="diff" id="diferenciales">
+        <div class="container">
+            <div class="diff__grid">
+                <div class="diff__item anim-up" style="--anim-delay: 0s">
+                    <div class="diff__icon">
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14 14c0-5.523 4.477-10 10-10s10 4.477 10 10c0 6-8 13-10 15-2-2-10-9-10-15z"/>
+                            <path d="M14 14c-2 4-2 8 0 12"/>
+                            <path d="M34 14c2 4 2 8 0 12"/>
+                            <line x1="24" y1="29" x2="24" y2="44"/>
+                            <path d="M18 44h12"/>
+                        </svg>
+                    </div>
+                    <h3 class="diff__title">Más de 200 Etiquetas</h3>
+                    <p class="diff__text">Una selección que crece cada semana. Vinos de Argentina, Chile, España, Italia y más, elegidos uno a uno por nuestro equipo.</p>
+                </div>
+                <div class="diff__item anim-up" style="--anim-delay: 0.15s">
+                    <div class="diff__icon">
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="14" r="8"/>
+                            <path d="M10 40c0-7.732 6.268-14 14-14s14 6.268 14 14"/>
+                            <path d="M32 10c2 0 4 1 5 3"/>
+                            <path d="M34 7c0 0 2-1 4-1"/>
+                        </svg>
+                    </div>
+                    <h3 class="diff__title">Asesoramiento Personal</h3>
+                    <p class="diff__text">No importa si sos experto o recién arrancás. Te guiamos con paciencia, dedicación y honestidad para que encuentres exactamente lo que buscás.</p>
+                </div>
+                <div class="diff__item anim-up" style="--anim-delay: 0.3s">
+                    <div class="diff__icon">
+                        <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="8" y="18" width="32" height="24" rx="3"/>
+                            <path d="M16 18V12a8 8 0 0116 0v6"/>
+                            <circle cx="18" cy="30" r="2"/>
+                            <circle cx="30" cy="30" r="2"/>
+                            <path d="M20 36h8"/>
+                        </svg>
+                    </div>
+                    <h3 class="diff__title">Degustaciones Guiadas</h3>
+                    <p class="diff__text">Todos los sábados, una experiencia de cata donde vas a descubrir sabores, historias y la magia que hay detrás de cada botella.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCIA ===== -->
+    <section class="experience" id="experiencia">
+        <div class="container">
+            <div class="section-header anim-up">
+                <span class="section-header__tag">Nuestra propuesta</span>
+                <h2 class="section-header__title">MÁS QUE UNA VINOTECA.<br>UNA EXPERIENCIA.</h2>
+                <p class="section-header__text">En SCARTO Winery no solo comprás vino: descubrís, aprendés, compartís. Cada visita es una oportunidad para encontrar algo nuevo que te sorprenda.</p>
+            </div>
+
+            <div class="exp-grid">
+                <!-- Exp Card 1 -->
+                <div class="exp-card anim-up">
+                    <div class="exp-card__img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmi7LH4mRsN8IOMN2KEalt4CqgBtfH3ASD3GxuhKwZnWQUje-ba5hFEY&s=10" alt="Selección de vinos SCARTO" loading="lazy">
+                    </div>
+                    <div class="exp-card__content">
+                        <span class="exp-card__number">01</span>
+                        <h3 class="exp-card__title">SELECCIÓN DE VINOS</h3>
+                        <p class="exp-card__text">Etiquetas cuidadosamente elegidas de las mejores bodegas. Desde clásicos argentinos hasta descubrimientos exóticos que no encontrás en cualquier lado. Pedí asesoramiento o explorá a tu ritmo.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Card 2 -->
+                <div class="exp-card exp-card--reverse anim-up">
+                    <div class="exp-card__img">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl32zcf-qC1QMY-33qIW4C3RJ-IktHVMXy-vCg9O5uFQrvafLwyFWci8O5FkUx_DXceqBASh4c6XxAvH96LXhekJaCEJg3T2KEntlBi-AQw4cipQW5Pzr0apAN-YIFy1Laq5Z-7=w924-h1634" alt="Picadas y maridajes" loading="lazy">
+                    </div>
+                    <div class="exp-card__content">
+                        <span class="exp-card__number">02</span>
+                        <h3 class="exp-card__title">PICADAS & MARIDAJES</h3>
+                        <p class="exp-card__text">El vino se disfruta acompañado. Picadas con quesos, fiambres y empanadas artesanales pensadas para maridar con cada estilo. Pedí la combinación que te recomienden o armá la tuya.</p>
+                    </div>
+                </div>
+
+                <!-- Exp Card 3 -->
+                <div class="exp-card anim-up">
+                    <div class="exp-card__img">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmiQ1_FWXj6wclzbckJasakVWimVH3-_5OAgaDiQsuT5Y9JyAZ4fUltkesi8PXc92477JPPqv1_hrV7R9ANAfN806_fvlPzku7JCid1zyEmQPYF5uNQ1CgK9IMVC_5e4eCnvwu87g=w1080-h1080-n-k-no-nu" alt="Degustación de vinos" loading="lazy">
+                    </div>
+                    <div class="exp-card__content">
+                        <span class="exp-card__number">03</span>
+                        <h3 class="exp-card__title">DEGUSTACIONES</h3>
+                        <p class="exp-card__text">Los sábados, SCARTO se transforma en un espacio de cata guiada. Descubrí vinos nuevos, aprendé a maridar y viví la experiencia de compartir una mesa con quienes aman el vino.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEGUSTACIÓN ESTRELLA ===== -->
+    <section class="star" id="degustacion">
+        <div class="star__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlfq2Zj0qC2KK1co9-85MEsbj2fT2yZlZuV1UoGKsFc2X8S23DaeEqoHoFa_Mobi8FkdkmEBATyVPFiu0I89kSLRGOWYT-R6RhLL-38FASTD8YsD63gu--6MRpxvsbENOgdPBmu=w1080-h720-n-k-no-nu" alt="Interior SCARTO Winery" loading="lazy">
+        </div>
+        <div class="star__overlay"></div>
+        <div class="star__content">
+            <span class="star__tag anim-fade" style="--anim-delay: 0.2s">Experiencia Estrella</span>
+            <h2 class="star__title anim-fade" style="--anim-delay: 0.4s">DEGUSTACIÓN<br>DE LOS SÁBADOS</h2>
+            <p class="star__text anim-fade" style="--anim-delay: 0.6s">Cada sábado, abrimos las puertas para una experiencia de cata única. Vinos que nunca probaste, maridajes que te van a sorprender, y la mejor compañía para compartir una noche inolvidable.</p>
+            <div class="star__details anim-fade" style="--anim-delay: 0.7s">
+                <div class="star__detail">
+                    <span class="star__detail-label">Cuándo</span>
+                    <span class="star__detail-value">Todos los sábados</span>
+                </div>
+                <div class="star__detail">
+                    <span class="star__detail-label">Horario</span>
+                    <span class="star__detail-value">16:00 – 20:00</span>
+                </div>
+                <div class="star__detail">
+                    <span class="star__detail-label">Reservas</span>
+                    <span class="star__detail-value">Por WhatsApp</span>
+                </div>
+            </div>
+            <a href="https://wa.me/5491164870541?text=Hola!%20Quiero%20reservar%20un%20lugar%20para%20la%20degustación%20del%20sábado%20en%20SCARTO%20Winery" class="btn btn--primary anim-fade" style="--anim-delay: 0.9s" target="_blank" rel="noopener">Reservá tu lugar</a>
+        </div>
+    </section>
+
+    <!-- ===== GALERÍA ===== -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header anim-up">
+                <span class="section-header__tag">Así se vive</span>
+                <h2 class="section-header__title">GALERÍA</h2>
+            </div>
+        </div>
+        <div class="gallery__grid">
+            <div class="gallery__item gallery__item--tall anim-up">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCsLh-YI_MtazLuhSjtglhV6BP-mLx46tOLC4zJZV0dW_v4woJBCLzomSwwgUIVh2YKPaFwT1ozq18CcbxFhrcvc73WQoJUKSiE5K9sLBt3BNtAAcPG4maG4vaHgM6Sl3tGW8E=w1080-h720-n-k-no-nu" alt="Exterior SCARTO Winery" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+            <div class="gallery__item anim-up">
+                <img src="https://lh3.googleusercontent.com/grass-cs/ANxoTn0Iz-ynQ0fQIi9JwNB4au3N-8DoMa7AlayaWyEb6U1bYZp_nJY7AH7TCxFUvaZ33psctlf8_UtkQo0n-XfwvU6dl6ay9B3cODzj6fznKlVRYKP7e1VL4Msf4ddtIfMcGAk4hZiFyw=s624-w498-h624-n-k-no" alt="Interior SCARTO Winery" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+            <div class="gallery__item anim-up">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkisZqsXKxfNspjSQ8uJX4Wfied12O3zl57YaweRbzpgX0CI8lli6Zfsqm5KLDRIDnZ_5lpzmTZ0485tqKDZS5PBHk9Bhpc6zzwPsaTMuCJ8mBXB8fkw9i4nq6DUXjUwChR996_hw=w1080-h1080-n-k-no-nu" alt="Empanadas artesanales" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+            <div class="gallery__item gallery__item--wide anim-up">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkK370heDcE7YxU4J6j5u6OZSHMAz1AC-aRD931h7BxTpELpmJfq_1wEjxwLZxZGlcSvAqevXbNdzWzH6ZqRZSPkRO2qclWfq2FZriU_sPtCf0b9TYFmclCaQJ4seKnXI2mDPR7yw=w1080-h720-n-k-no-nu" alt="Vidriera SCARTO Winery" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+            <div class="gallery__item anim-up">
+                <img src="https://lh3.googleusercontent.com/grass-cs/ANxoTn1Q4S3tksH8urT2bcwsTbo3eeCsjLvaqCopbUPNcIkvJd9ZGA60Apf6gEiUYFE410PoDXD1SH5RLYI-ZaIhO1aA3mKUdCf3khhiLk15UgrHPIroFAnNy8ekci3ytzQbxpp6ZIkA=s624-w498-h624-n-k-no" alt="En SCARTO Winery" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+            <div class="gallery__item anim-up">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLP_h3Aqv1VAaj-8EPHBceqXtHgH3OnYhTRzYrdztzDlpu-YgbZAIX9TU&s=10" alt="Vinos seleccionados" loading="lazy">
+                <div class="gallery__item-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="testimonials" id="opiniones">
+        <div class="container">
+            <div class="section-header anim-up">
+                <span class="section-header__tag">Lo que dicen</span>
+                <h2 class="section-header__title">OPINIONES DE NUESTROS<br>CLIENTES</h2>
+                <div class="testimonials__rating">
+                    <span class="testimonials__rating-score">4.7</span>
+                    <div class="testimonials__rating-stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <span class="testimonials__rating-count">Basado en 55 reseñas de Google</span>
+                </div>
+            </div>
+
+            <div class="testimonials__grid">
+                <div class="testimonial-card anim-up" style="--anim-delay: 0s">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">ML</div>
+                        <div>
+                            <h4 class="testimonial-card__name">María L.</h4>
+                            <span class="testimonial-card__date">hace 3 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"Nos sorprendió con una hermosa e íntima cata de vinos. La atención personalizada y amable de sus dueños, la exquisita comida, y el hermoso momento que pasamos compartiendo experiencias y disfrutando del vino que nos reunía a la mesa. ¡Gracias!"</p>
+                </div>
+
+                <div class="testimonial-card anim-up" style="--anim-delay: 0.12s">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">CR</div>
+                        <div>
+                            <h4 class="testimonial-card__name">Carlos R.</h4>
+                            <span class="testimonial-card__date">hace 1 mes</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"La atención personalizada que brindan es genial, te asesoran, te explican, te aconsejan como si fueran amigos. Variedad de etiquetas y buenos precios. Siempre van trayendo cosas nuevas."</p>
+                </div>
+
+                <div class="testimonial-card anim-up" style="--anim-delay: 0.24s">
+                    <div class="testimonial-card__header">
+                        <div class="testimonial-card__avatar">FA</div>
+                        <div>
+                            <h4 class="testimonial-card__name">Fernando A.</h4>
+                            <span class="testimonial-card__date">hace 2 meses</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"Fui sin idea de qué vino elegir, los chicos me recomendaron con mucha paciencia y dedicación. Excelente atención, la variedad que tienen es muy amplia. Mi lugar preferido para comprar un buen vino. Súper recomendables."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MOMENTOS ===== -->
+    <section class="moments" id="momentos">
+        <div class="container">
+            <div class="section-header anim-up">
+                <span class="section-header__tag">Para cada momento</span>
+                <h2 class="section-header__title">¿CUÁNDO VIENES?</h2>
+            </div>
+
+            <div class="moments__grid">
+                <div class="moment-card anim-up" style="--anim-delay: 0s">
+                    <div class="moment-card__img">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNOwULs_FHbcaAHE-WULYk89o-lACYmT2mIk5_fgEDJVmeXAmMngSl31lrVWXBu4W7AWhXKgHStJcmnBgrK2Ujbv2gvNXcTrtkGIbIwtA5BZrXAivZnNrgCc1a-u3-yObd5ck9=w924-h1634" alt="Picada con amigos" loading="lazy">
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">LA PREVIA CON AMIGOS</h3>
+                        <p class="moment-card__text">Vini con una picada, una botella para compartir y buena conversación. Ideal para arrancar el finde o hacer una previa distinta con los que más querés.</p>
+                        <span class="moment-card__hours">Vie y Sáb · 16:00 – 20:00</span>
+                    </div>
+                </div>
+
+                <div class="moment-card anim-up" style="--anim-delay: 0.15s">
+                    <div class="moment-card__img">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkisZqsXKxfNspjSQ8uJX4Wfied12O3zl57YaweRbzpgX0CI8lli6Zfsqm5KLDRIDnZ_5lpzmTZ0485tqKDZS5PBHk9Bhpc6zzwPsaTMuCJ8mBXB8fkw9i4nq6DUXjUwChR996_hw=w1080-h1080-n-k-no-nu" alt="Explorando sabores" loading="lazy">
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">EL GUSTO EN SOLEDAD</h3>
+                        <p class="moment-card__text">A veces no necesitás compañía, necesitás un buen vino y un rato para vos. Vení, explorá las estanterías y encontrá algo que te haga sonreír.</p>
+                        <span class="moment-card__hours">Lun a Sáb · 10:00 – 13:00 / 16:00 – 20:00</span>
+                    </div>
+                </div>
+
+                <div class="moment-card anim-up" style="--anim-delay: 0.3s">
+                    <div class="moment-card__img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmi7LH4mRsN8IOMN2KEalt4CqgBtfH3ASD3GxuhKwZnWQUje-ba5hFEY&s=10" alt="Selección de vinos" loading="lazy">
+                    </div>
+                    <div class="moment-card__content">
+                        <h3 class="moment-card__title">BUSCÁ EL REGALO PERFECTO</h3>
+                        <p class="moment-card__text">¿Un cumpleaños, un agradecimiento, una cena especial? Te ayudamos a encontrar la botella ideal para cada ocasión y cada presupuesto. Sin apuros, con onda.</p>
+                        <span class="moment-card__hours">Todos los días · Te asesoramos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HISTORIA ===== -->
+    <section class="story" id="historia">
+        <div class="container">
+            <div class="story__grid">
+                <div class="story__images anim-up">
+                    <div class="story__img story__img--main">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr9RUj1pJOKnw6Gl2soOpckjvBT5QibsyFVNuwzT3pqxD-UaLbx8oF7JRJGou50a5_unVV3sZGuA3JjNMVsEUIRdXdvfrwWkazceUoc-xFaDp0QiLiX7Zl-MLPDMxaRI5fwpwd=w1080-h720-n-k-no-nu" alt="SCARTO Winery" loading="lazy">
+                    </div>
+                    <div class="story__img story__img--accent">
+                        <img src="https://lh3.googleusercontent.com/grass-cs/ANxoTn1Q4S3tksH8urT2bcwsTbo3eeCsjLvaqCopbUPNcIkvJd9ZGA60Apf6gEiUYFE410PoDXD1SH5RLYI-ZaIhO1aA3mKUdCf3khhiLk15UgrHPIroFAnNy8ekci3ytzQbxpp6ZIkA=s624-w498-h624-n-k-no" alt="En SCARTO Winery" loading="lazy">
+                    </div>
+                </div>
+                <div class="story__content anim-up">
+                    <span class="section-header__tag">Nuestra historia</span>
+                    <h2 class="story__title">EL VINO ES<br>CONVERSACIÓN.</h2>
+                    <p class="story__text">SCARTO Winery nació del amor por el vino y la certeza de que elegir una botella no debería ser un misterio. Somos una vinoteca en San Fernando donde cada etiqueta tiene una historia, y nuestro trabajo es contártela.</p>
+                    <p class="story__text">No somos un supermercado de vinos ni una tienda fría. Somos el lugar al que volvés porque te sentís bien, porque alguien te guió con honestidad, y porque te fuiste con una botella que de verdad iba a ser la correcta.</p>
+                    <p class="story__text story__text--accent">Te esperamos en 25 de Mayo 1221, San Fernando.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info anim-up">
+                    <span class="section-header__tag">Contacto</span>
+                    <h2 class="contact__title">VISITANOS O<br>ESCRIBINOS</h2>
+                    <p class="contact__text">¿Tenés una consulta? ¿Querés reservar para la degustación del sábado? ¿Buscás algo especial? Escribinos y te respondemos a la brevedad.</p>
+
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <span class="contact__detail-label">Dirección</span>
+                                <span class="contact__detail-value">25 de Mayo 1221, San Fernando, Buenos Aires</span>
+                            </div>
+                        </div>
+                        <div class="contact__detail">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <div>
+                                <span class="contact__detail-label">WhatsApp</span>
+                                <a href="https://wa.me/5491164870541" class="contact__detail-link" target="_blank" rel="noopener">011 6487-0541</a>
+                            </div>
+                        </div>
+                        <div class="contact__detail">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            <div>
+                                <span class="contact__detail-label">Horarios</span>
+                                <span class="contact__detail-value">Lun a Sáb: 10:00–13:00 / 16:00–20:00<br>Domingo: 10:00–13:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form-wrapper anim-up">
+                    <form class="contact__form" id="contactForm">
+                        <h3 class="contact__form-title">Escribinos</h3>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="Tu teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest" class="form-label">¿Qué te interesa?</label>
+                            <select id="interest" name="interest" class="form-input form-select">
+                                <option value="">Seleccioná una opción</option>
+                                <option value="consulta">Consulta general</option>
+                                <option value="degustacion">Reservar degustación del sábado</option>
+                                <option value="regalo">Busco un vino para regalar</option>
+                                <option value="evento">Evento privado / cerramiento</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje (opcional)</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Contanos en qué podemos ayudarte..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="visitanos">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljQg4ZF7eT5B43pubBuGGwrGyi2jxEsuaEAftyfjS8plBw_DcTkWoLs3fZyfvDT46AmMJIuebhv9WheEPzLdOdJYPSlTBlNxAX_3mhlktRj3oGJ2q3c5OFBveVGs6_IB8dAX8E=w214-h268-n-k-no-nu" alt="SCARTO Winery" class="footer__logo">
+                    <p class="footer__tagline">Vinoteca premium en San Fernando.<br>Selección curada, atención personalizada.</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/scarto.winery/" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://wa.me/5491164870541?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20SCARTO%20Winery" class="footer__social-link" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__heading">Horarios</h4>
+                    <ul class="footer__list">
+                        <li>Lunes a Sábado</li>
+                        <li>10:00–13:00 / 16:00–20:00</li>
+                        <li>Domingo: 10:00–13:00</li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__heading">Contacto</h4>
+                    <ul class="footer__list">
+                        <li><a href="tel:+5491164870541">011 6487-0541</a></li>
+                        <li><a href="https://wa.me/5491164870541?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20SCARTO%20Winery" target="_blank" rel="noopener">WhatsApp</a></li>
+                        <li><a href="https://www.instagram.com/scarto.winery/" target="_blank" rel="noopener">@scarto.winery</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__map">
+                <iframe
+                    src="https://maps.google.com/maps?q=25+de+Mayo+1221+San+Fernando+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación SCARTO Winery">
+                </iframe>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 SCARTO Winery. Todos los derechos reservados.</p>
+                <a href="https://tuweben3dias.com" class="footer__credit" target="_blank" rel="noopener">Diseñado por tuweben3dias.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FAB ===== -->
+    <a href="https://wa.me/5491164870541?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20SCARTO%20Winery" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
